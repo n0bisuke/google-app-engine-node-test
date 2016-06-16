@@ -1,5 +1,6 @@
 'use strict'
 
+require('@google/cloud-debug');
 const Hapi = require('hapi');
 const server = new Hapi.Server();
 
